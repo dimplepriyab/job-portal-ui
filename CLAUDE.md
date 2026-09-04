@@ -43,3 +43,34 @@ Three roles with route protection via `ProtectedRoute` component:
 ### ESLint
 
 Flat config (`eslint.config.js`). The `no-unused-vars` rule ignores variables starting with uppercase or underscore (`varsIgnorePattern: '^[A-Z_]'`).
+
+## Git and GitHub Workflow
+
+### Branch Naming
+
+- `feature/...` — New features or enhancements
+- `fix/...` — Bug fixes
+- `docs/...` — Documentation changes
+
+### Branch Rules
+
+- Always create branches from `main`
+- Keep branches short-lived
+- Delete branches after they are merged
+
+### Pull Requests
+
+- Open a pull request when the work is ready
+
+### Commit Message Format
+
+- Use one of these prefixes: `feature`, `fix`, `docs`, `chore`, `refactor`, `style`
+- Write in present tense (e.g., "add" not "added")
+- Use lowercase throughout
+- No period at the end of the subject line
+- Keep the subject line under 72 characters
+- Add a commit message body when the change is not obvious
+
+### Code Standards
+
+- Follow the existing project coding, testing, and linting standards
